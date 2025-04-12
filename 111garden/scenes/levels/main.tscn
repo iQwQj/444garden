@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://xsrohln3fbwk"]
+[gd_scene load_steps=5 format=3 uid="uid://xsrohln3fbwk"]
 
 [ext_resource type="Script" path="res://scripts/levels/main.gd" id="1_f6xed"]
 [ext_resource type="PackedScene" uid="uid://beub4ukdrn2c" path="res://scenes/ui/joystick.tscn" id="2_3s15x"]
 [ext_resource type="PackedScene" uid="uid://defxo38qr88v1" path="res://scenes/entities/player.tscn" id="3_km37a"]
+[ext_resource type="PackedScene" uid="uid://oomneiebtsty" path="res://scenes/entities/doll.tscn" id="4_eprub"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_f6xed")
@@ -28,3 +29,5 @@ offset_bottom = 542.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(1, 1, 0.156863, 1)
+
+[node name="doll" parent="." instance=ExtResource("4_eprub")]

@@ -30,6 +30,8 @@ func _ready():
 		# camera.limit_top = 0
 		# camera.limit_right = 3000  # Your map width
 		# camera.limit_bottom = 3000  # Your map height
+	add_to_group("player")
+	
 
 func _physics_process(delta):
 	# Get joystick input if available
