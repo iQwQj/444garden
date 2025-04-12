@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://beub4ukdrn2c"]
+
+[ext_resource type="Script" path="res://scripts/ui/joystick.gd" id="1_dj03h"]
+
+[node name="Joystick" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_dj03h")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+stretch_mode = 5
+
+[node name="Handle" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+stretch_mode = 5
