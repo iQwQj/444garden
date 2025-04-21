@@ -1,3 +1,15 @@
-[gd_scene format=3 uid="uid://e4ikkrwej4kl"]
+[gd_scene load_steps=3 format=3 uid="uid://e4ikkrwej4kl"]
+
+[ext_resource type="Script" path="res://scripts/levels/lobby.gd" id="1_h4u2w"]
+[ext_resource type="Texture2D" uid="uid://dob3ewkp05hca" path="res://assets/images/map/lobby.png" id="2_xhsbx"]
 
 [node name="Lobby" type="Node2D"]
+script = ExtResource("1_h4u2w")
+
+[node name="floor" type="Sprite2D" parent="."]
+texture = ExtResource("2_xhsbx")
+
+[node name="walls" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="walls"]
+polygon = PackedVector2Array(284, 250, 268, 637, -267, 620, -281, 241, -448, 57, -733, 71, -753, -138, -456, -130, -346, -254, -360, -611, -261, -664, -227, -305, -91, -302, -83, -662, 87, -673, 87, -308, 214, -300, 223, -664, 376, -577, 353, -240, 432, -141, 701, -127, 687, 37, 446, 71, 297, 237, 316, 563, 549, 548, 771, -9, 619, -441, 266, -700, -309, -700, -689, -375, -810, -3, -626, 346, -312, 656, 315, 665)
