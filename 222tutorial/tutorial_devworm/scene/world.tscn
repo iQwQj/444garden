@@ -1,10 +1,11 @@
-[gd_scene load_steps=25 format=4 uid="uid://b2miotjdkne8h"]
+[gd_scene load_steps=26 format=4 uid="uid://b2miotjdkne8h"]
 
 [ext_resource type="PackedScene" uid="uid://ma127t3vh5g4" path="res://scene/player.tscn" id="1_o6voe"]
 [ext_resource type="Texture2D" uid="uid://cklcsrjltkiv0" path="res://art/environment/survivalgame-terrain-default.png" id="2_5guks"]
 [ext_resource type="Texture2D" uid="uid://bvpyufdxtt2m7" path="res://art/environment/survivalgame-trees.png" id="3_rrug7"]
 [ext_resource type="Texture2D" uid="uid://cerm3l6kbt26m" path="res://art/environment/survivalgame-terrain-cliffs.png" id="4_psnsy"]
 [ext_resource type="Texture2D" uid="uid://dtnvk0xs615ae" path="res://art/environment/survivalgame-terrain-water.png" id="5_qoqta"]
+[ext_resource type="PackedScene" uid="uid://esiqxke85au8" path="res://scene/apple_tree.tscn" id="6_edsx6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n6tng"]
 texture = ExtResource("2_5guks")
@@ -986,3 +987,9 @@ tile_set = SubResource("TileSet_n22cd")
 [node name="TileMapLayer3" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAD0/wYAAwAEAAEAAAD1/wUAAwAEAAAAAAD1/wYAAwAEAAEAAAD2/wUAAwAEAAAAAAD2/wYAAwAEAAEAAAD3/wUAAwAEAAAAAAD3/wYAAwAEAAEAAAD4/wUAAwAEAAAAAAD4/wYAAwAEAAEAAAD5/wUAAwAEAAAAAAD5/wYAAwAEAAEAAAD6/wUAAwAEAAAAAAD6/wYAAwAEAAEAAAD7/wUAAwAEAAAAAAD7/wYAAwAEAAEAAAD8/wUAAwAEAAAAAAD8/wYAAwAEAAEAAAD9/wUAAwAEAAAAAAD9/wYAAwAEAAEAAAD0/wUAAwAEAAAAAAD+/wUAAwAFAAAAAAD+/wYAAwAFAAEAAAAAAAUAAwADAAAAAAAAAAYAAwADAAEAAAABAAUAAwAEAAAAAAABAAYAAwAEAAEAAAACAAUAAwAEAAAAAAACAAYAAwAEAAEAAAADAAUAAwAEAAAAAAADAAYAAwAEAAEAAAAEAAUAAwAEAAAAAAAEAAYAAwAEAAEAAAAFAAUAAwAEAAAAAAAFAAYAAwAEAAEAAAD1////AwAIAAAAAAD3/wAAAwAIAAAAAAD7//7/AwAIAAAAAAD8/wIAAwAIAAAAAAADAAMAAwARAAEAAAAEAAAAAwARAAEAAAACAP3/AwARAAEAAAD3/wQAAwARAAEAAAD+//7/AwAIAAEAAAAEAPv/AwARAAIAAAABAPr/AwARAAIAAAAFAP7/AwARAAIAAAD2/wEAAwARAAIAAAD3//7/AwAIAAEAAAAEAP3/AwAIAAEAAAAFAAQAAwAIAAEAAAACAP//AwARAAIAAAABAAQAAwARAAIAAAD6/wQAAwAIAAEAAAD+/wMAAwAIAAEAAAA=")
 tile_set = SubResource("TileSet_ofxbi")
+
+[node name="apple_tree" parent="." instance=ExtResource("6_edsx6")]
+position = Vector2(-138, 172)
+
+[node name="apple_tree2" parent="." instance=ExtResource("6_edsx6")]
+position = Vector2(74, 112)

@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://bjbpk0xigtj70"]
+
+[node name="apple_collectable" type="StaticBody2D"]
