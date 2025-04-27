@@ -24,7 +24,7 @@ func _physics_process(delta: float):
 func play_animation(dir): # "dir" here = direction
 	
 	# for debug console
-	print(dir)
+	# print(dir)
 	
 	if player_state == "idle":
 		$AnimatedSprite2D.play("idle")
