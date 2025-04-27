@@ -1,4 +1,3 @@
-# Create player scene
 
 ### player: character2d
 
