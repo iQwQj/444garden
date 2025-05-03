@@ -4,6 +4,8 @@ var speed = 100 # used to calculate movement
 
 var player_state # to store player movement status
 
+@export var inv:Inv
+
 func _physics_process(delta: float):
 	# set movement controls in "Project Setting > InputMap"
 	var direction = Input.get_vector("left", "right", "up", "down")
