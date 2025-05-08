@@ -38,3 +38,34 @@ it will first form a long line, we can adjust into columns:
 
 ![[Pasted image 20250503173301.png]]
 
+### another item as an example
+
+structure
+![[Pasted image 20250507230529.png]]
+
+add collision shape2D
+![[Pasted image 20250507230546.png]]
+
+connect a signal to this collision shape
+**body_entered**
+
+![[Pasted image 20250507230514.png]]
+
+create an invitem resource for this stick
+![[Pasted image 20250507231106.png]]
+
+select the texture (image) and name to create and save the resource
+![[Pasted image 20250507231225.png]]
+
+remember to load this resource to the stick_collectable scene "item" on the right (inspector)
+
+
+![[Pasted image 20250507231303.png]]
+
+click the connect button (next to "+") to instantiate the sticks
+![[Pasted image 20250507231516.png]]
+
+by default they will be placed to the center (above the player), drag and place them
+
+![[Pasted image 20250507231641.png]]
+

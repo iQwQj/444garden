@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=4 uid="uid://b2miotjdkne8h"]
+[gd_scene load_steps=27 format=4 uid="uid://b2miotjdkne8h"]
 
 [ext_resource type="PackedScene" uid="uid://ma127t3vh5g4" path="res://scene/player.tscn" id="1_o6voe"]
 [ext_resource type="Texture2D" uid="uid://cklcsrjltkiv0" path="res://art/environment/survivalgame-terrain-default.png" id="2_5guks"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cerm3l6kbt26m" path="res://art/environment/survivalgame-terrain-cliffs.png" id="4_psnsy"]
 [ext_resource type="Texture2D" uid="uid://dtnvk0xs615ae" path="res://art/environment/survivalgame-terrain-water.png" id="5_qoqta"]
 [ext_resource type="PackedScene" uid="uid://esiqxke85au8" path="res://scene/apple_tree.tscn" id="6_edsx6"]
+[ext_resource type="PackedScene" uid="uid://d35jei205pe4v" path="res://scene/stick_collectable.tscn" id="7_gu3gl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n6tng"]
 texture = ExtResource("2_5guks")
@@ -993,3 +994,9 @@ position = Vector2(-138, 172)
 
 [node name="apple_tree2" parent="." instance=ExtResource("6_edsx6")]
 position = Vector2(74, 112)
+
+[node name="stick_collectable" parent="." instance=ExtResource("7_gu3gl")]
+position = Vector2(-105, -42)
+
+[node name="stick_collectable2" parent="." instance=ExtResource("7_gu3gl")]
+position = Vector2(133, 28)

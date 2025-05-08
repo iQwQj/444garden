@@ -1,9 +1,56 @@
-[gd_resource type="Resource" script_class="Inv" load_steps=4 format=3 uid="uid://x4wfj7n4ce2i"]
+[gd_resource type="Resource" script_class="Inv" load_steps=15 format=3 uid="uid://x4wfj7n4ce2i"]
 
-[ext_resource type="Script" path="res://inventory/inventory_item.gd" id="1_n0si4"]
-[ext_resource type="Resource" uid="uid://qpoed6h208ve" path="res://inventory/items/apple.tres" id="2_3s22s"]
+[ext_resource type="Script" path="res://inventory_slot.gd" id="2_riw1s"]
 [ext_resource type="Script" path="res://inventory/inventory.gd" id="3_j346c"]
+
+[sub_resource type="Resource" id="Resource_vvsi5"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_6hvfm"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_rlg12"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_m4bjm"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_468cq"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_un0kg"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_3cipw"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_26r8m"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_4kpdf"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_gqfrq"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_p5rhh"]
+script = ExtResource("2_riw1s")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_j1vu4"]
+script = ExtResource("2_riw1s")
+amount = 0
 
 [resource]
 script = ExtResource("3_j346c")
-items = Array[ExtResource("1_n0si4")]([null, null, null, ExtResource("2_3s22s"), null, null, null, ExtResource("2_3s22s"), null, null, null, null])
+slots = Array[ExtResource("2_riw1s")]([SubResource("Resource_vvsi5"), SubResource("Resource_6hvfm"), SubResource("Resource_rlg12"), SubResource("Resource_m4bjm"), SubResource("Resource_468cq"), SubResource("Resource_un0kg"), SubResource("Resource_3cipw"), SubResource("Resource_26r8m"), SubResource("Resource_4kpdf"), SubResource("Resource_gqfrq"), SubResource("Resource_p5rhh"), SubResource("Resource_j1vu4")])
