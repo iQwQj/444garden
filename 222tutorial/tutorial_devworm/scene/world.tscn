@@ -1004,3 +1004,6 @@ position = Vector2(133, 28)
 
 [node name="slime" parent="." instance=ExtResource("8_4lyk6")]
 position = Vector2(-15, 116)
+
+[node name="slime2" parent="." instance=ExtResource("8_4lyk6")]
+position = Vector2(-135, 13)
