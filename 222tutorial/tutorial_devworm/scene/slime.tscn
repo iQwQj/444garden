@@ -149,10 +149,10 @@ radius = 5.09902
 radius = 6.32456
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mmojf"]
-radius = 67.0075
+radius = 56.6039
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_plrt6"]
-radius = 1294.42
+radius = 816.26
 
 [node name="slime" type="CharacterBody2D"]
 script = ExtResource("1_2hewc")
@@ -189,4 +189,6 @@ shape = SubResource("CircleShape2D_plrt6")
 disabled = true
 
 [connection signal="area_entered" from="hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]
 [connection signal="body_entered" from="slime_collect_area" to="." method="_on_slime_collect_area_body_entered"]

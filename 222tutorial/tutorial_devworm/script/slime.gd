@@ -15,7 +15,7 @@ var player
 func _ready():
 	dead = false
 
-func _physics_process(delta: float) -> void:
+func _physics_process(delta):
 	if !dead:
 		$detection_area/CollisionShape2D.disabled = false
 		if player_in_area:
@@ -27,12 +27,16 @@ func _physics_process(delta: float) -> void:
 	if dead:
 		$detection_area/CollisionShape2D.disabled = true
 		
-func _on_detection_area_body_entered(body):
+
+func _on_detection_area_body_entered(body: Node2D) -> void:
+	# created using signal (choosing "detection_area" and select "Node" on the right panel)
+	# then connect to the slime scene
 	if body.has_method("player"):
 		player_in_area = true
 		player = body
-		
-func _on_detection_area_body_exited(body):
+
+
+func _on_detection_area_body_exited(body: Node2D) -> void:
 	if body.has_method("player"):
 		player_in_area = false
 
