@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="InvItem" load_steps=3 format=3 uid="uid://bkndm5xe6asq4"]
 
-[ext_resource type="Script" path="res://inventory/inventory_item.gd" id="1_wuwtk"]
+[ext_resource type="Script" uid="uid://bi5amwmjrkra4" path="res://inventory/inventory_item.gd" id="1_wuwtk"]
 [ext_resource type="Texture2D" uid="uid://l7a0v8u7dtyp" path="res://art/environment/stick-icon.png" id="2_0lbbc"]
 
 [resource]

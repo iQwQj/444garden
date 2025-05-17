@@ -1,13 +1,13 @@
 [gd_scene load_steps=6 format=3 uid="uid://oomneiebtsty"]
 
 [ext_resource type="Script" path="res://scripts/entities/doll.gd" id="1_073xk"]
-[ext_resource type="Texture2D" uid="uid://bxp7wrp6wkpnr" path="res://assets/images/npc/7814bdf40debccd93e64b4f7c17b1cb5.jpg" id="2_62cnf"]
+[ext_resource type="Texture2D" uid="uid://bwawkcwdoyf0g" path="res://assets/images/character/idle.png" id="2_vbksv"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_pyool"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_62cnf")
+"texture": ExtResource("2_vbksv")
 }],
 "loop": true,
 "name": &"doll",

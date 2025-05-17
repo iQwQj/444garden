@@ -1,6 +1,6 @@
 [gd_scene load_steps=27 format=3 uid="uid://x7pyllffnli1"]
 
-[ext_resource type="Script" path="res://script/slime.gd" id="1_2hewc"]
+[ext_resource type="Script" uid="uid://cnc1s2y3ger1c" path="res://script/slime.gd" id="1_2hewc"]
 [ext_resource type="Resource" uid="uid://n3bqmj46bag2" path="res://inventory/items/slime.tres" id="2_fdxir"]
 [ext_resource type="Texture2D" uid="uid://5mswudcahsif" path="res://art/character/survivalgame-enemy-slime.png" id="2_ngx8l"]
 [ext_resource type="PackedScene" uid="uid://c4rfaqoj4u7wv" path="res://scene/slime_collectable.tscn" id="3_llmna"]
