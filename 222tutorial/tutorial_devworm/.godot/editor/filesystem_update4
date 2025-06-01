@@ -1,0 +1,11 @@
+res://inventory/playerinv.tres
+res://scene/slime_collectable.tscn
+res://scene/slime.tscn
+res://script/slime.gd
+res://scene/player.tscn
+res://scene/world.tscn
+res://scene/apple_tree.tscn
+res://scene/apple_collectable.tscn
+res://inventory/inventory_ui_slot.tscn
+res://scene/stick_collectable.tscn
+res://scene/arrow.tscn

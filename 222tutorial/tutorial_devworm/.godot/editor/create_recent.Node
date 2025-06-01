@@ -1,0 +1,14 @@
+CollisionShape2D
+Area2D
+Sprite2D
+StaticBody2D
+AnimatedSprite2D
+CharacterBody2D
+Marker2D
+VisibleOnScreenEnabler2D
+Label
+AnimationPlayer
+Timer
+Camera2D
+TileMapLayer
+TileMap
